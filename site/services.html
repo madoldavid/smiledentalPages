@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services | SmileBright Dental</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="topbar">
+    <div class="brand">SmileBright Dental</div>
+    <nav class="nav" aria-label="Main navigation">
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+      <ul id="nav-menu" class="nav__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html" aria-current="page">Services</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="book.html">Book</a></li>
+        <li><a href="staff.html">Staff</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="cta">
+      <span class="phone" aria-label="Clinic phone">☎ +44 20 7946 1234</span>
+      <a class="btn btn--primary" href="book.html">Book now</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="section__heading">
+        <p class="eyebrow">What we do</p>
+        <h1>Services tailored to every smile.</h1>
+        <p>Transparent pricing, evidence-based treatments, and clinicians who explain every step.</p>
+      </div>
+      <div class="grid services">
+        <article class="card">
+          <h3>Check-up</h3>
+          <p>30-minute examination, X-rays if required, personalised care plan.</p>
+          <span class="price">from £60</span>
+        </article>
+        <article class="card">
+          <h3>Hygiene clean</h3>
+          <p>Scale, polish, and stain removal with airflow for sensitive teeth.</p>
+          <span class="price">from £75</span>
+        </article>
+        <article class="card">
+          <h3>Whitening</h3>
+          <p>Custom trays and LED-assisted in-clinic treatment with follow-up kit.</p>
+          <span class="price">from £350</span>
+        </article>
+        <article class="card">
+          <h3>Orthodontics</h3>
+          <p>Clear aligner consults, treatment plans, and remote progress tracking.</p>
+          <span class="price">POA</span>
+        </article>
+      </div>
+      <details class="faq">
+        <summary>FAQs – click to expand</summary>
+        <div class="faq__item"><strong>Do you accept NHS patients?</strong><p>Private clinic with referral pathways; NHS emergencies signposted.</p></div>
+        <div class="faq__item"><strong>Is finance available?</strong><p>Interest-free plans up to 12 months; subject to checks.</p></div>
+      </details>
+    </section>
+
+    <section class="section section--alt">
+      <div class="section__heading">
+        <p class="eyebrow">What’s included</p>
+        <h2>Clarity on timing, prep, and aftercare.</h2>
+        <p>Arrive 5 minutes early to update details; we’ll give written aftercare for every treatment.</p>
+      </div>
+      <table class="tableish">
+        <tr><th>Service</th><th>Duration</th><th>Includes</th><th>Aftercare</th></tr>
+        <tr><td>Check-up</td><td>30 mins</td><td>Exam, X-rays if needed, treatment plan</td><td>Brush 2x/day, floss; return in 6 months</td></tr>
+        <tr><td>Hygiene clean</td><td>40 mins</td><td>Scale, polish, airflow stain removal</td><td>Avoid strong colours for 24h; sensitivity gel if needed</td></tr>
+        <tr><td>Whitening</td><td>60 mins + trays</td><td>Shade check, in-clinic session, custom trays & gel</td><td>Avoid staining foods/drinks for 48h; use desensitising paste</td></tr>
+        <tr><td>Orthodontics</td><td>45 mins consult</td><td>Scan/impressions, photos, treatment roadmap</td><td>Wear aligners 22h/day; weekly remote check-ins</td></tr>
+      </table>
+      <div class="note note--warning">
+        <span class="note__title">Medical updates</span>
+        Please tell us about pregnancy, medications (especially anticoagulants), and allergies before treatment.
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__heading">
+        <p class="eyebrow">Credentials</p>
+        <h2>Quality and safety checks we follow.</h2>
+        <p>Our clinicians are GDC-registered; we audit infection control monthly.</p>
+      </div>
+      <ul class="pill-list">
+        <li class="pill">GDC registered clinicians</li>
+        <li class="pill pill--amber">HTM 01-05 sterilisation</li>
+        <li class="pill">Medical history reviewed every visit</li>
+        <li class="pill pill--muted">Loupes & rubber dam for restorative</li>
+        <li class="pill">Digital X-rays with low dose</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>SmileBright Dental</strong><br />
+      12 Crescent Road, London<br />
+      Phone: +44 20 7946 1234 | Email: hello@smilebright.com
+    </div>
+    <div class="footer__links">
+      <a href="services.html" aria-current="page">Services</a>
+      <a href="register.html">Register</a>
+      <a href="book.html">Book</a>
+      <a href="staff.html">Staff</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer__legal">
+      <a href="#">Privacy notice</a>
+      <a href="#">Accessibility</a>
+      <span>© 2026 SmileBright Dental</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
